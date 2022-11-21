@@ -1,0 +1,16 @@
+The text box or code describes your planning, such as pseudocode of your algorithm or programming decisions like what datatypes to use or flow control using conditionals, loops, and functions.
+The code runs without error and solves the specified problem.
+The text box explains how the code was tested, such as the test cases used or your debugging process.
+Clarity of the code, including inline comments and descriptive variable names.
+
+You shouldn't feel constrained by the descriptions given below. Feel free to add features to the game as you see fit. (But in both your week 11 and week 12 submissions, you should describe what it is that you've altered.) Also you don't have to exactly match the sample runs of the game that are shown -- feel free to be creative and to add features not shown.
+
+You should not, however, alter or remove aspects from the game that make it easier to program. For example, when the player enters the column they want to play in, the game should determine the row the piece appears, not require the player to also provide the row. Another example is that the game should determine if there is a winner, not rely on the players to spot the win.
+
+As usual, students are encouraged to ask for advice or guidance on the message board. Students are allowed to work with classmates, if they like. Students can use the message board and/or get together in the classroom during the week to collaborate. Students are allowed to discuss things like pseudocode, algorithms, and programming decisions like what datatypes to use, but they may not share code. All students in a group must write their own code, and students with effectively identical code will not receive full credit. If you work with others, you should credit them appropriately when turning in your project. (In other words, say with whom you worked and what was their contribution.)
+
+----------------------------------------
+
+Connect Four is a tic-tac-toe-based game for 2 players. In the commercial version of the game, players take turns dropping colored checkers (one player is red, the other is black) into one of 7 columns of the game device. The checkers will fall to the bottom of the column. Each column can hold up to 6 checkers. (Students can change the size of the board, but there should still be an even number of rows.) The first player to get 4 checkers of his or her color in a row (in any direction, including diagonally) is the winner. If both players play all 21 of their checkers with neither player getting 4-in-a-row, the game is a draw.
+
+Implement Connect Four so that two human players can play each other. We suggest that you use X and O for the two players.
